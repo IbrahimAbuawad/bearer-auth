@@ -1,14 +1,14 @@
 # basic-auth
 
 ## Github PR
-https://github.com/IbrahimAbuawad/basic-auth/pull/1
+https://github.com/IbrahimAbuawad/basic-auth/pull/2
 ## Github Actions
 
 https://github.com/IbrahimAbuawad/basic-auth/actions
 
 ## Heroku URLs
 
-
+https://ibrahimawad-basic-auth.herokuapp.com
 
 
 ## Class notes

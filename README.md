@@ -11,6 +11,9 @@ https://github.com/IbrahimAbuawad/basic-auth/actions
 https://ibrahimawad-basic-auth.herokuapp.com
 
 
+## UML
+![](./UML_Lab06.jpg)
+
 ## Class notes
 * Learn how to encode and encrypt user information
 * Learn how to utilize third party mock api testing such as httpie

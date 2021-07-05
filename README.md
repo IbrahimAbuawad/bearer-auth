@@ -1,18 +1,18 @@
-# basic-auth
+# bearer-auth
 
 ## Github PR
-https://github.com/IbrahimAbuawad/basic-auth/pull/3
+https://github.com/IbrahimAbuawad/bearer-auth/pull/1
 ## Github Actions
 
-https://github.com/IbrahimAbuawad/basic-auth/actions
+https://github.com/IbrahimAbuawad/bearer-auth/actions
 
 ## Heroku URLs
 
-https://ibrahimawad-basic-auth.herokuapp.com
+https://ibrahimawad-bearer-auth.herokuapp.com
 
 
 ## UML
-![](./UML_Lab06.jpg)
+![](./Lab07UML.jpg)
 
 ## Class notes
 * Learn how to encode and encrypt user information

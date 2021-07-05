@@ -1,5 +1,10 @@
 'use strict';
 
-module.exports = function(request, response, next) {
-  response.status(404).send('That route is not found');
+module.exports = (req, res, next) => {
+  let error = { error: 'Resource Not Found' };
+  res.statusCode = 404;
+  res.statusMessage = 'Not Found';
+  res.setHeader('Content-Type', 'application/json');
+  res.write(JSON.stringify(error));
+  res.end();
 };

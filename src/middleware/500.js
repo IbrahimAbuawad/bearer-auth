@@ -1,11 +1,9 @@
 'use strict';
-
-module.exports = function(err, req, res) {
-  const error = err.message ? err.message : err;
-
-  const errorObject = {
-    status: 500,
-    message: error,
-  };
-  res.status(errorObject.status).json(errorObject);
+module.exports = (err, req, res, next) => {
+  let error = { error: err.message || err };
+  res.statusCode = err.status || 500;
+  res.statusMessage = err.statusMessage || 'Server Error';
+  res.setHeader('Content-Type', 'application/json');
+  res.write(JSON.stringify(error));
+  res.end();
 };
